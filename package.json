@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "doc": "documentation build index.js -f html -o docs"
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,8 @@
   "homepage": "https://github.com/ULL-ESIT-DSI-1617/proyecto-dsi-edna-joseluis-kevin-35l2v3-1-operation-division#readme",
   "dependencies": {
     "@ull-edna-joseluis-kevin-35l2/ull-operation": "^1.0.3"
+  },
+  "devDependencies": {
+    "documentation": "^4.0.0-rc.1"
   }
 }
