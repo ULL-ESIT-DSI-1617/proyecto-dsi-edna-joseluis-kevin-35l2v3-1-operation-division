@@ -1,0 +1,33 @@
+{
+  "name": "@ull-edna-joseluis-kevin-35l2/ull-operation-division",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-DSI-1617/proyecto-dsi-edna-joseluis-kevin-35l2v3-1-operation-division.git"
+  },
+  "author": "Edna Liliana Galiano Camacho - José Luis Doblado González - Kevin Estévez Expósito",
+  "contributors": [
+    {
+      "name": "Edna Liliana Galiano Camacho"
+    },
+    {
+      "name": "José Luis Doblado González"
+    },
+    {
+      "name": "Kevin Estévez Expósito"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-DSI-1617/proyecto-dsi-edna-joseluis-kevin-35l2v3-1-operation-division/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-DSI-1617/proyecto-dsi-edna-joseluis-kevin-35l2v3-1-operation-division#readme",
+  "dependencies": {
+    "@ull-edna-joseluis-kevin-35l2/ull-operation": "^1.0.3"
+  }
+}
