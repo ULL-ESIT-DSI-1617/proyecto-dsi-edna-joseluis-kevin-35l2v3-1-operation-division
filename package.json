@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "doc": "documentation build index.js -f html -o docs"
+    "doc": "documentation build index.js -f html -o docs",
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -31,8 +32,10 @@
     "@ull-edna-joseluis-kevin-35l2/ull-operation": "^1.0.3"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "documentation": "^4.0.0-rc.1",
     "gulp": "^3.9.1",
-    "gulp-shell": "^0.6.3"
+    "gulp-shell": "^0.6.3",
+    "mocha": "^3.4.1"
   }
 }
