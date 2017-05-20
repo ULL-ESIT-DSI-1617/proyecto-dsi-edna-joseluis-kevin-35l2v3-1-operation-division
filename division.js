@@ -1,7 +1,5 @@
 "use strict";
 
-var Operation = require("@ull-edna-joseluis-kevin-35l2/ull-operation");
-
 /**
 * Clase que calcula la division entre dos dígitos
 * @class Division
@@ -10,7 +8,7 @@ var Operation = require("@ull-edna-joseluis-kevin-35l2/ull-operation");
 */
 
 (function (operations){
-  module.exports = operations['/'] = class Division extends Operation {
+  operations['/'] = class Division extends Operation {
     constructor (izq, dch){
       super(izq,dch);
     }
@@ -24,4 +22,4 @@ var Operation = require("@ull-edna-joseluis-kevin-35l2/ull-operation");
   }else{
     operations.symbols = '/';
   }
-}(global.operations = global.operations || {}));
+}(operations = operations || {}));
