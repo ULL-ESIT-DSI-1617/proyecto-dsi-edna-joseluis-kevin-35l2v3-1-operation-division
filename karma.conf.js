@@ -18,11 +18,20 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine'],
+    frameworks: ['mocha', 'chai'],
 
+    client: {
+    			mocha: {
+    				ui: 'tdd'
+    			}
+    },
 
     // list of files / patterns to load in the browser
     files: [
+        'tests/*.js',
+		'node_modules/@ull-edna-joseluis-kevin-35l2/ull-operation/operation.js',
+		'division.js',
+        'tests/*.html'
     ],
 
 
@@ -34,6 +43,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
+        'tests/*.html': ['html2js']
     },
 
 
