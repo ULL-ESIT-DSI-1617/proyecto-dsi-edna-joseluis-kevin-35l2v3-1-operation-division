@@ -8,7 +8,7 @@
 */
 
 (function (operations){
-  operations['/'] = class Division extends Division {
+  operations['/'] = class Division extends Operation {
     constructor (izq, dch){
       super(izq,dch);
     }
