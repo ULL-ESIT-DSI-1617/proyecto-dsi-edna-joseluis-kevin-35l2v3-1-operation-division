@@ -1,0 +1,24 @@
+{
+  "name": "@ull-edna-joseluis-kevin-35l2/ull-operation-division",
+  "description": "Módulo complementario para el cálculo de divisiones",
+  "main": "division.js",
+  "authors": [
+    "Edna Liliana Galino Camacho",
+    "José Luis Doblado González",
+    "Kevin Estévez Expósito"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ULL-ESIT-DSI-1617/proyecto-dsi-edna-joseluis-kevin-35l2v3-1-operation-division",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "gulpfile.js",
+    "karma.conf.js"
+  ],
+  "dependencies": {
+    "ull-edna-joseluis-kevin-35l2-ull-operation": "*"
+  }
+}
